@@ -1,0 +1,19 @@
+@import "./variables.scss";
+@import "./animation.scss";
+@import "~base-ui/src/style/main.scss";
+@import "~base-ui/src/style/icon/icon.scss";
+@import "../../common/style/main.scss";
+
+.b-form-group .required-star,
+.required-sign {
+    color: $red;
+}
+
+.pre-wrap {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    white-space: pre-wrap;
+    line-height: inherit;
+    font-family: inherit !important;
+}

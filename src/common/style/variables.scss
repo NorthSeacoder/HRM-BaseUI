@@ -1,0 +1,222 @@
+/*
+ * Colors
+ * ========================================================================== */
+
+$test: #67c65a;
+$feat: #fc0;
+$prod: #ff1338;
+$btn-default: #fff;
+$btn-default-hover: #e4e4e4;
+$btn-primary: #1577ec;
+$btn-primary-hover: #2a5f9e;
+$btn-warning: #f7c411;
+$btn-warning-hover: #c59b07;
+$btn-danger: #fd4663;
+$btn-danger-hover: #d2324c;
+$btn-secondary: #02c7a3;
+$btn-secondary-hover: #18a78d;
+$white-base: #fff;
+$black-base: #000;
+$black-light: #333;
+$help-gray-base: #777;
+$gray-darker: #222;
+$gray-dark: #999;
+$gray-base: #ccc;
+$gray-light: #eee;
+$gray-lighter: #fcfcfc;
+$blue-darker: #343640;
+$blue-dark: #1577ec;
+$blue-brand: #3a3c49;
+$blue-light: #0c8dfd;
+$blue: $blue-dark;
+$blue-dark-trans: rgba(58, 60, 73, .85);
+$green-base: #0b9067;
+$green-light: rgba(103, 198, 90, .3);
+$orange-dark: #f90;
+$orange-base: #ffdb15;
+$orange-light: #fff406;
+$orange-lighter: #ffe88b;
+$red-dark: #8b0000;
+$red-base: #ff1213;
+$red-light: #ff1493;
+$purple-light: #6f8feb;
+$yellow-light: #fff581;
+$yellow-lighter: #fff5b0;
+$dev: $blue-light;
+$font-color: rgb(27, 27, 27);
+
+/*
+ * Navbar
+ * ========================================================================== */
+$navbar-bg-color: $blue-brand;
+$navbar-front-color: $white-base;
+$navbar-group-title-color: $white-base;
+$navbar-hover-bg-color: $blue-darker;
+$navbar-hover-group-bg-color: $blue-darker;
+$navbar-hover-front-color: $purple-light;
+$navbar-hover-border-color: $purple-light;
+$navbar-active-bg-color: $blue-darker;
+$navbar-active-group-bg-color: $blue-darker;
+$navbar-active-front-color: $purple-light;
+$navbar-active-border-color: $purple-light;
+$navbar-group-transition: none;
+$navbar-item-transition: none;
+
+/*
+ * Typography
+ * ========================================================================== */
+
+$font-family-base: "Microsoft YaHei", Arial, sans-serif, "宋体";
+
+/*
+ * Layout
+ * ========================================================================== */
+
+$common-border-radius: 2px;
+$input-default-width: 172px;
+$input-middle-width: 200px;
+$input-long-width: 300px;
+$input-longer-width: 450px;
+$max-content-width: 1000px;
+$header-height: 60px;
+$header-title-height: 40px;
+$header-title-padding: 10px;
+$navbar-width: 200px;
+$navbar-width-ec: 220px;
+$z-index-header: 1000;
+$z-index-navbar: 900;
+$z-index-footer: 950;
+$z-index-shadow: 10;
+$network-indicator-height: 3px;
+
+/*
+ * Media queries breakpoints
+ * ========================================================================== */
+
+$screen-xs-min: 480px; /* Extra small screen / phone */
+$screen-sm-min: 768px; /* Small screen / tablet */
+$screen-md-min: 992px; /* Medium screen / desktop */
+$screen-lg-min: 1200px; /* Large screen / wide desktop */
+$header-search-large-min: 1300px;
+$header-search-hide-max: 1000px;
+$timezone-select-hide-max: 550px;
+$ec-header-search-hide-max: 1160px;
+$ec-timezone-select-hide-max: 960px;
+
+/*
+ * Animations
+ * ========================================================================== */
+
+$animation-swift-out: .45s cubic-bezier(.3, 1, .4, 1) 0s;
+
+/*
+ * Colors--Font
+ * ========================================================================== */
+
+$YQG_FontColor_1: #565a5c; // fc1：深色字体，默认字体颜色
+$YQG_FontColor_2: #82898d; // fc2：浅底次要文字
+$YQG_FontColor_3: #c0c1c9; // fc3：深&浅底次要文字，底导航文字
+$YQG_FontColor_4: #fff; // fc4：白色，深底高亮色
+$YQG_FontColor_5: #4285f4; // fc5：主VI色，突出色
+$YQG_FontColor_6: #ed6849; // fc6：突出色，收益，错误，重要提示
+$YQG_FontColor_7: #f7c411; // fc7：突出色，深底高亮色，收益
+$YQG_FontColor_8: #55b066; // fc8：负收益，通过，安全，正确
+$YQG_FontColor_9: #999; // fc9：浅底次要颜色lv1，提示文字
+$YQG_FontColor_10: #616475; // fc10：tag提示文字
+
+/*
+ * Colors--Background
+ * ========================================================================== */
+
+$YQG_BgColor_1: #eee; // bc1：浅灰色背景，整体APP背景
+$YQG_BgColor_2: #fafafa; // bc2：浅灰色背景，底导航&白底加灰适用
+$YQG_BgColor_3: #fff; // bc3：白色背景
+$YQG_BgColor_4: #323247; // bc4：深色背景，NAV背景
+$YQG_BgColor_5: #2d2d40; // bc5：深色背景lv2
+$YQG_BgColor_6: #262632; // bc6：深色背景lv3
+$YQG_BgColor_7: #4285f4; // bc7：常用突出背景
+$YQG_BgColor_8: #ed6849; // bc8：常用突出背景
+$YQG_BgColor_9: #ccc; // bc9：按钮不可用状态背景
+$YQG_BgColor_10: #e8e8e8; // bc10：灰色底浅灰背景
+$YQG_BgColor_11: #bbb; // bc11：灰色底浅灰背景lv2
+
+/*
+ * Colors--Border
+ * ========================================================================== */
+
+$YQG_BorderColor_1: #e8e8e8; // bor1：白底分割线，模块边框
+$YQG_BorderColor_2: #d8d8d8; // bor2：浅底分割线，模块边框
+$YQG_BorderColor_3: #6a6a7a; // bor3：深底分割线，边框
+$YQG_BorderColor_4: #4285f4; // bor4：当前状态
+
+/*
+ * Colors--Icon
+ * ========================================================================== */
+
+$YQG_IconColor_1: #fff; // ic1_w*h：白色icon
+$YQG_IconColor_2: #4285f4; // ic2_w*h：vi灰色icon
+$YQG_IconColor_3: #c0c1c9; // ic3_w*h：灰色icon
+
+/*
+ * FontSize
+ * ========================================================================== */
+
+$YQG_FontSize_10: 16px; // fz10：小标签类型
+$YQG_FontSize_20: 22px; // fz20：小标题，提示类型
+$YQG_FontSize_30: 24px; // fz30：正文，小标题
+$YQG_FontSize_40: 26px; // fz40：模块内容
+$YQG_FontSize_50: 28px; // fz50：列表正文
+$YQG_FontSize_60: 30px; // fz60：默认标题
+$YQG_FontSize_70: 36px; // fz70：大标题，收益符号
+$YQG_FontSize_80: 44px; // fz80：大标题，收益符号
+$YQG_FontSize_90: 60px; // fz90：大标题1，具体收益
+$YQG_FontSize_100: 70px; // fz100：大标题，收益率
+$YQG_FontSize_110: 100px; // fz110：超大标题，收益类型
+
+/*
+ * Padding (可点击区域间距用padding标注)
+ * ========================================================================== */
+
+$YQG_Padding_6: 6px; // p6：小模块间距
+$YQG_Padding_10: 10px; // p10：小模块间距
+$YQG_Padding_20: 20px; // p20：模块，窄按钮内部间距
+$YQG_Padding_30: 26px; // p30：按钮字间距
+$YQG_Padding_40: 30px; // p40：常用边距
+$YQG_Padding_50: 40px; // p50：产品卡间距，大模块间距
+$YQG_Padding_60: 50px; // p60：大模块间距
+$YQG_Padding_70: 60px; // p70：大模块间距
+$YQG_Padding_80: 70px; // p80：大模块间距
+$YQG_Padding_90: 80px; // p90：大模块间距
+$YQG_Padding_100: 100px; // p100：大模块间距
+$YQG_Padding_120: 286px; // p120：按钮左右间距
+
+/*
+ * Margin
+ * ========================================================================== */
+
+$YQG_Margin_10: 10px; // m10：小模块间距
+$YQG_Margin_20: 20px; // m20：模块，窄按钮内部间距
+$YQG_Margin_30: 26px; // m30：按钮字间距
+$YQG_Margin_40: 30px; // m40：常用边距
+$YQG_Margin_50: 40px; // m50：产品卡间距，大模块间距
+$YQG_Margin_60: 50px; // m60：大模块间距
+$YQG_Margin_70: 60px; // m70：大模块间距
+$YQG_Margin_80: 70px; // m80：大模块间距
+$YQG_Margin_90: 80px; // m90：大模块间距
+$YQG_Margin_100: 100px; // m100：大模块间距
+
+/*
+ * Radius
+ * ========================================================================== */
+
+$YQG_Radius_1: 6px; // rad1：默认圆角
+//$YQG_Radius_2: 待定;  // rad2：个性化模块设计
+//$YQG_Radius_3: 待定;  // rad3：个性化模块设计
+
+/*
+ * BorderWidth
+ * ========================================================================== */
+
+$YQG_BorderWidth_1: 2px; // bw1：默认边框粗细
+$YQG_BorderWidth_2: 1px; // bw2：个数情况使用
+$YQG_BorderWidth_3: 10px; // bw3：个数情况使用

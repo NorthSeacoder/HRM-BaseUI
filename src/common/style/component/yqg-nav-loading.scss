@@ -1,0 +1,50 @@
+@import "~base-ui/src/style/variables.scss";
+
+.loading-wrap {
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+
+    .line {
+        width: 50vw;
+        height: 2px;
+        background-color: #fff;
+        box-shadow: 0 0 1px 0 $primary-dark;
+    }
+
+    .rotating-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        color: #fff;
+
+        background: url("../img/loading.svg") center no-repeat;
+
+        @media screen and (max-width: 770px) {
+            display: none;
+        }
+    }
+
+    &.show-loading {
+        visibility: visible;
+
+        .line {
+            animation: loading 1s linear infinite;
+        }
+
+        @keyframes loading {
+            from {
+                transform: translate3d(-100%, 0, 0);
+            }
+
+            to {
+                transform: translate3d(150%, 0, 0);
+            }
+        }
+    }
+}

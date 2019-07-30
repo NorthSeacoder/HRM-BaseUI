@@ -1,0 +1,51 @@
+@import "~base-ui/src/style/variables.scss";
+
+$border-radius: 3px;
+
+.user-icon-wrap {
+    position: relative;
+
+    i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        color: $gray-dark;
+        padding: 0;
+        box-shadow: 0 3px 10px 1px rgba(0, 0, 0, .1);
+        font-size: 14px;
+        animation: .3s ease-in fade-in;
+        border-radius: $border-radius;
+        z-index: 10003;
+
+        hr {
+            border: none;
+            border-bottom: 1px solid $gray-light;
+        }
+
+        li {
+            display: block;
+            width: 120px;
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+            transition: background-color .5s;
+
+            &:last-child {
+                border-bottom-left-radius: $border-radius;
+                border-bottom-right-radius: $border-radius;
+            }
+
+            &:not(.user-name):hover {
+                cursor: pointer;
+                user-select: none;
+                color: $black;
+                background-color: $gray-light;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import "~base-ui/src/style/variables.scss";
+
+$primary: #333; // 某种紫色
+
+$primary-lighter: lighten($primary, 20);
+$primary-light: lighten($primary, 10);
+$primary-dark: darken($primary, 10);
+$primary-darker: darken($primary, 20);
+
+$primary-blue: lighten(#3236aa, 10);
+$primary-blue-dark: #3236aa;
+
+//Z-Index
+$z-index-loading: 9999;
