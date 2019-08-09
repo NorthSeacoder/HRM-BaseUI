@@ -11,7 +11,7 @@ export default [
     },
 
     {
-        name: 'Index',
+        name: 'index',
         path: '/',
         component: Index
     },
@@ -19,18 +19,19 @@ export default [
     {
       path: '/personal',
       name: 'personal',
-      meta: {
-          navTitle: '人事管理',
-          pageTitle: '人事管理'
-      },
       component: Personal,
+      meta: {
+        navTitle: '人事管理',
+        pageTitle: '人事管理'
+    },
       children:[
         {
           name: 'employeeInfo',
           path: '/personal/employee-info',
           component: EmployeeInfo,
           meta: {
-              navTitle: '员工信息'
+              pageTitle: '员工信息',
+              navTitle: '员工信息',
           }
       },
       ]

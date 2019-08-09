@@ -57,11 +57,13 @@
 </template>
 
 <script type="text/babel">
-import ClientTable from '../../../common/mixin/client-table';
+import ClientTable from '@/common/mixin/client-table';
 import FormOptions from './constant/form-options';
 import TableOptions from './constant/table-options';
 import EditUserGroupModal from './modal/edit-user-group-modal';
 import UploadModal from './modal/upload-modal';
+
+import Employee from '@/api/personal/employee';
 
 
 export default {
@@ -76,7 +78,11 @@ export default {
             TableOptions
         };
     },
-
+    mounted(){
+        Employee.getList().then(res=>{
+            console.log(res)
+        })
+    },
     methods: {
         openEditModal(record) {
             const vm = this;
