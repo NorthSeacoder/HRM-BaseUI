@@ -46,6 +46,12 @@ export function deleteEmployee(data) {
     data
   })
 }
-export default {getList,getDetail}
+export function getBlock() {
+  return request({
+    url: '/api/getBlock',
+    method: 'get'
+  })
+}
+export default {getList,getDetail,getBlock}
 
 

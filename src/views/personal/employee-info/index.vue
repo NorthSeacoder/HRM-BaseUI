@@ -91,7 +91,11 @@ export default {
             }).catch(x => x);
         },
 
-        cutOff() {},
+        cutOff() {
+            Employee.getBlock().then(res=>{
+                console.log(res)
+            })
+        },
 
         list() {
             const vm = this;
