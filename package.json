@@ -22,7 +22,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
-    "base-ui": "0.0.182",
+    "base-ui": "0.0.290",
     "vue-template-compiler": "^2.6.10"
   }
 }
